@@ -277,15 +277,17 @@ If you use PowerShell and activation is blocked, you may need to adjust your loc
 
 **macOS / Linux:**
 
-```bash
-python3 -m venv venv  source venv/bin/activate   ```
+```py
+python3 -m venv venv  source venv/bin/activate
+```
 
 ### Step 3: Create requirements.txt
 
 Create a file named requirements.txt in the project root and add:
 
-```text
-streamlit  pandas   ```
+```
+streamlit  pandas
+```
 
 These are the external Python packages imported by the application. The sqlite3, datetime, and pathlib modules are included with Python.
 
@@ -295,9 +297,10 @@ For reproducible installations, you can pin the package versions after testing t
 
 With your virtual environment activated, run:
 
-```bash
+```
 
-python -m pip install --upgrade pip  pip install -r requirements.txt   ```
+python -m pip install --upgrade pip  pip install -r requirements.txt
+```
 
 Wait for the installation to finish.
 
@@ -307,9 +310,10 @@ Ensure that the main Python file is named app.py, or remember the actual filenam
 
 Your project directory should contain at least:
 
-```text
+```
 
- app.py  requirements.txt   ```
+ app.py  requirements.txt
+```
 
 The database will be created automatically when the application runs.
 
@@ -318,17 +322,19 @@ The database will be created automatically when the application runs.
 
 Start the Streamlit application from the project directory:
 
-```bash
+```
 
- streamlit run app.py   ```
+ streamlit run app.py
+```
 
 Streamlit will start a local web server and usually open the application in your default browser.
 
 If it does not open automatically, visit:
 
-```text
+```
 
-http://localhost:8501   ```
+http://localhost:8501
+```
 
 To stop the application, press Ctrl + C in the terminal where Streamlit is running.
 
@@ -430,9 +436,10 @@ After successful checkout, the order and its line items are saved to SQLite. The
 
 **Billing formula:**
 
-```text
+```
 
-Subtotal = Sum of (Item Price × Quantity)  Taxable Amount = Max(Subtotal − Discount, 0)  Tax = Taxable Amount × Tax Rate / 100  Grand Total = Taxable Amount + Tax   ```
+Subtotal = Sum of (Item Price × Quantity)  Taxable Amount = Max(Subtotal − Discount, 0)  Tax = Taxable Amount × Tax Rate / 100  Grand Total = Taxable Amount + Tax
+```
 
 The tax rate defaults to 0%, so configure the appropriate rate before using the application for actual billing.
 
