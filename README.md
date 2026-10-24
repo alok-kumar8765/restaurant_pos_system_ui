@@ -210,19 +210,20 @@ TechnologyPurposePythonApplication logic and calculationsStreamlitInteractive we
 *   **SQLite:** Stores menu items, completed orders, and order line items in a local database.
     
 
-📁 Project Structure
+## 📁 Project Structure
 --------------------
 
 The project can be organized as follows:
 
-```md
- restaurant-pos/  │  ├── app.py                    # Main Streamlit application  ├── restaurant_pos.db         # SQLite database (created automatically)  ├── requirements.txt           # Python dependencies  ├── README.md                  # Project documentation  ├── .gitignore                 # Files excluded from Git  │  └── LICENSE                    # Project license (optional)   ```
+```
+restaurant-pos/  │  ├── app.py                    # Main Streamlit application  ├── restaurant_pos.db         # SQLite database (created automatically)  ├── requirements.txt           # Python dependencies  ├── README.md                  # Project documentation  ├── .gitignore                 # Files excluded from Git  │  └── LICENSE                    # Project license (optional)
+```
 
 **Important:** The database file is generated automatically when the application initializes. It does not need to exist before the first run.
 
 The requirements.txt, .gitignore, and LICENSE files are recommended project files; they are not created by the supplied application code.
 
-💻 System Requirements
+## 💻 System Requirements
 ----------------------
 
 Before installing the application, ensure you have:
@@ -249,13 +250,11 @@ Follow these steps to set up the project on your computer.
 
 Replace the example repository URL with your actual GitHub repository URL.
 
-```bash
-git clone https://github.com/alok-kaushal8765/resturant_system_ui.git   ```
+``` git clone https://github.com/alok-kaushal8765/resturant_system_ui.git   ```
 
 Navigate to the project directory:
 
-```bash
- cd resturant_system_ui   ```
+``` cd resturant_system_ui   ```
 
 Alternatively, download the project as a ZIP file from GitHub and extract it.
 
