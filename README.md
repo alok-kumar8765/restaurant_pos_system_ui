@@ -250,11 +250,15 @@ Follow these steps to set up the project on your computer.
 
 Replace the example repository URL with your actual GitHub repository URL.
 
-``` git clone https://github.com/alok-kaushal8765/resturant_system_ui.git   ```
+```py
+git clone https://github.com/alok-kaushal8765/resturant_system_ui.git
+```
 
 Navigate to the project directory:
 
-``` cd resturant_system_ui   ```
+```py
+cd resturant_system_ui
+```
 
 Alternatively, download the project as a ZIP file from GitHub and extract it.
 
@@ -264,9 +268,10 @@ A virtual environment keeps the project's dependencies separate from other Pytho
 
 **Windows:**
 
-bash
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   python -m venv venv  venv\Scripts\activate   `
+```py
+python -m venv venv  venv\Scripts\activate
+```
 
 If you use PowerShell and activation is blocked, you may need to adjust your local execution policy or activate the environment through Command Prompt instead.
 
